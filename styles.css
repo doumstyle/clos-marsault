@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: cornsilk;
+}
+
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navigation ul li {
+  margin-right: 1em;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardWrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.contactForm {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+
+.separation {
+  width: 500px;
+  margin: auto;
+}
